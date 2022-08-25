@@ -1,0 +1,40 @@
+body{
+    background-image: url(../img/089adada312582a29d30df42ef1621f2.jpg) ;
+    background-repeat: round;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: solid 10px darkcyan;
+    border-radius: 2vh;
+    margin: 3vh;
+    background-color:aquamarine;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    padding: 3vh;
+}
+
+.foto{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 20%;
+    padding: 3vh;
+}
+
+h1{
+    font-family: 'Rubik Distressed', cursive;
+    color: darkcyan;
+}
+
+p{
+    font-family: 'Khand', sans-serif;
+    color: darkcyan;
+}
+
+
