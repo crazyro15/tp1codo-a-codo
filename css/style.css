@@ -1,6 +1,6 @@
 body{
-    background-image: url(../img/089adada312582a29d30df42ef1621f2.jpg) ;
-    background-repeat: round;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
 }
 
 .container{
@@ -9,7 +9,8 @@ body{
     border: solid 10px darkcyan;
     border-radius: 2vh;
     margin: 3vh;
-    background-color:aquamarine;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .text{
@@ -35,6 +36,16 @@ h1{
 p{
     font-family: 'Khand', sans-serif;
     color: darkcyan;
+}
+
+.btnConoceme{
+    border-color: blue;
+    color: blue;
+}
+
+.btn{
+    border-color: blue;
+    color: blue;
 }
 
 
